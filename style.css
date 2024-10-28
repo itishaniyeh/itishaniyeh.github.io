@@ -1,0 +1,45 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #222;
+    font-weight: 700;
+}
+
+.job-title {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+}
+
+.icons a {
+    color: #333;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #0073e6;
+    /* Change color on hover */
+}
